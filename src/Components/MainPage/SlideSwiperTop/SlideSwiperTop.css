@@ -1,0 +1,71 @@
+.topContainer {
+  width: auto;
+  height: 948px;
+  position: relative;
+}
+
+.swiper {
+  text-align: center;
+  position: relative;
+}
+
+.swiper-pagination-horizontal {
+  margin-bottom: 81px;
+}
+
+.swiper-pagination-bullet {
+  width: 40px;
+  height: 6px;
+  border-radius: 0%;
+  opacity: 70%;
+  border-bottom: 2px solid #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+}
+
+.swiper-pagination-bullet-active {
+  width: 40px;
+  height: 6px;
+  background-color: #ffbc24;
+  border-radius: 0%;
+  opacity: 100%;
+  border-bottom: none;
+}
+
+.Walpapers {
+  /* width: 100%; */
+}
+
+.textOnSwiper {
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  top: 100px;
+  right: 285px;
+  justify-content: center;
+}
+
+.background {
+  display: flex;
+  align-items: center;
+  height: 98px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 10px;
+}
+
+.PM-22 {
+  position: relative;
+  color: #ffbc24;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.Printografiya {
+  position: relative;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 600;
+}

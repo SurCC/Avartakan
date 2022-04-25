@@ -1,0 +1,84 @@
+.middleContainer {
+}
+
+.backgroundOfadvantages {
+  background-color: #296a61;
+  height: 183px;
+  display: flex;
+  justify-content: center;
+}
+
+.advantages {
+  color: #f8f3d5;
+  font-size: 36px;
+  font-weight: 600;
+  position: relative;
+  top: 100px;
+}
+
+.backgroundOfMiddle {
+  width: 100%;
+  height: 210px;
+  background-color: #296a61;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.SlidesOfMiddle {
+  width: 100%;
+  height: 328px;
+  background-color: #4f8d85;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer
+}
+
+.middliSwiperContainer {
+  width: 1520px;
+  height: 348px;
+  padding-left: 74px;
+  padding-right: 74px;
+}
+
+:root {
+  --swiper-navigation-size: 24px;
+  --swiper-theme-color: #ffbc24;
+}
+
+.ellipse {
+  background-color: #4f8d85;
+  height: 54px;
+  width: 54px;
+  border-radius: 50%;
+  top: 149px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Icon {
+  position: relative;
+  top: 80px;
+}
+
+.HeaderOfSlides {
+  position: relative;
+  top: 114px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #F8F3D5;
+}
+
+.textOfSlides {
+  position: relative;
+  top: 123px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #F8F3D5;
+
+}

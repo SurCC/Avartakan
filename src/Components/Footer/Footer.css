@@ -1,0 +1,14 @@
+.footerContainer {
+}
+
+.onFooter {
+  width: 100%;
+  height: 271px;
+  background-color: #296a61;
+}
+
+.underFooter {
+    width: 100%;
+    height: 60px;
+    background-color: #10443D;
+}

@@ -1,0 +1,199 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI";
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 140px;
+  background-color: #296a61;
+  justify-content: center;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.frstCol {
+  width: 121px;
+  height: 106px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+.secondCol {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 20px;
+  gap: 6px;
+}
+
+.higherRow {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.navButton {
+  width: 174px;
+  height: 46px;
+  color: #ffbc24;
+  font-size: 16px;
+  font-weight: 350;
+  border-radius: 5px;
+  border-color: #ffbc24;
+  background-color: #166057;
+  cursor: pointer;
+}
+
+.rpOfFirstRow {
+  display: flex;
+  flex-direction: row;
+  padding-left: 119px;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+}
+
+.bascket {
+  display: flex;
+  width: auto;
+  height: 29.73px;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.languageChanger {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  align-items: center;
+}
+
+.lowGrayText {
+  color: #f8f3d5;
+  font-size: 12px;
+  font-weight: 350;
+  opacity: 0.7;
+}
+
+.tel {
+  color: #ffbc24;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.callBack {
+  color: #ffbc24;
+  font-size: 10px;
+  font-weight: 350;
+}
+
+.EnRus {
+  color: #f8f3d5;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.II {
+  color: #f8f3d5;
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 2px;
+}
+
+.lowerRow {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+}
+
+.navBar {
+  color: #f8f3d5;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navBar :hover {
+  color: #FDF0A0;
+}
+
+.columnsOfFirstRow {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.more {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrow {
+  position: relative;
+  left: 5px;
+  bottom: 3px;
+  padding-right: 5px;
+}
+
+.navBarOfMore {
+  color: #f8f3d5;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+}
+
+.navBarOfMore :hover {
+  color: #FDF0A0;
+}
+
+.search {
+  position: relative;
+  top: 5px;
+  left: -5px;
+}
+
+.subMenuOfMore {
+  display: none;
+}
+
+.navBarOfMore :hover .subMenuOfMore {
+  display: block;
+  position: absolute;
+  background-color: #4f8d85;
+  color: #f8f3d5;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  z-index: 11;
+}
+
+.navBarOfMore :hover .subMenuOfMore div {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #ffbc24;
+  background: transparent;
+  text-align: left;
+}
+
+.navBarOfMore :hover .subMenuOfMore :last-child {
+  border-bottom: none;
+}
