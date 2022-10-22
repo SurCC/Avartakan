@@ -1,4 +1,142 @@
 .menu {
-    width: 100%;
-    height: 3791px;
+  width: 100%;
+  height: 3791px;
+}
+
+.insideData {
+  top: 240px;
+  position: relative;
+}
+
+.containerOfMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.insideDataHeader {
+  color: #4f8d85;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.2px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  right: 784px;
+}
+
+.insideDataHeader2 {
+    color: #4f8d85;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 757px;
+}
+
+.insideDataHeader3 {
+    color: #4f8d85;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 43.2px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 707px;
+}
+
+.topSales {
+  color: #4f8d85;
+  font-size: 14px;
+  font-weight: 350;
+  line-height: 16.8px;
+  position: relative;
+  top: 20px;
+  display: flex;
+  justify-content: center;
+  right: 828px;
+}
+
+.firstRowOfInsideData {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+  top: 40px;
+}
+
+.secondRowOfInsideData {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  bottom: 235px;
+  overflow: hidden;
+}
+
+.nameOfItem {
+  position: relative;
+  color: #ffbc24;
+}
+
+.sizeAndPrice {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 30px;
+}
+
+.sizeOfItem {
+  color: #ffffff;
+}
+
+.priceOfItem {
+  color: #1ca4ad;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.slideOfitem {
+  position: relative;
+  cursor: pointer;
+}
+
+.containerOfNameSizeAndPrice {
+  position: absolute;
+  bottom: 25px;
+  left: 20px;
+}
+
+.containerOfNameSizeAndPriceTop {
+  position: absolute;
+  bottom: 315px;
+  left: 20px;
+}
+
+.slideOfitem :hover {
+  color: #fdf0a0;
+}
+
+.moreOfBarelief {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 207px;
+  left: 739px;
+}
+
+.moreButtonOfbarelief {
+  width: 284px;
+  height: 48px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  color: #296a61;
+  border-radius: 5px;
+  border-color: #296a61;
 }
