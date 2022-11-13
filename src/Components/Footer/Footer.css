@@ -8,7 +8,35 @@
 }
 
 .underFooter {
-    width: 100%;
-    height: 60px;
-    background-color: #10443D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  background-color: #10443d;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.containerOfUnderFooter {
+  display: flex;
+  flex-direction: row;
+  gap: 43px;
+}
+
+.underFooterText1 {
+  display: flex;
+  gap: 5px;
+}
+
+.decoLine {
+  font-weight: 100;
+}
+
+.underFooterText2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./Images/Logo.png";
+import Logo from "../Images/Logo.png";
 import Vector2 from "./Images/Vector2.png";
 import Shape from "./Images/Shape.png";
 import Bascket from "./Images/Bascket.png";

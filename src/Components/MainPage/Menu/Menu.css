@@ -6,13 +6,22 @@
 .insideData {
   top: 240px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .containerOfMenu {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  align-items: flex-end;
+  margin: 0 70px;
+}
+
+.insideContainerOfMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .insideDataHeader {
@@ -20,32 +29,20 @@
   font-size: 36px;
   font-weight: 600;
   line-height: 43.2px;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  right: 784px;
 }
 
 .insideDataHeader2 {
-    color: #4f8d85;
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 43.2px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    right: 757px;
+  color: #4f8d85;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.2px;
 }
 
 .insideDataHeader3 {
-    color: #4f8d85;
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 43.2px;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    right: 707px;
+  color: #4f8d85;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 43.2px;
 }
 
 .topSales {
@@ -53,11 +50,7 @@
   font-size: 14px;
   font-weight: 350;
   line-height: 16.8px;
-  position: relative;
   top: 20px;
-  display: flex;
-  justify-content: center;
-  right: 828px;
 }
 
 .firstRowOfInsideData {
@@ -104,6 +97,7 @@
 .slideOfitem {
   position: relative;
   cursor: pointer;
+  z-index: 10;
 }
 
 .containerOfNameSizeAndPrice {
@@ -123,11 +117,9 @@
 }
 
 .moreOfBarelief {
-  display: flex;
-  justify-content: center;
-  position: relative;
   bottom: 207px;
-  left: 739px;
+  right: 4px;
+  position: relative;
 }
 
 .moreButtonOfbarelief {
