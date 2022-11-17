@@ -1,10 +1,157 @@
 .footerContainer {
+  display: flex;
+  flex-direction: column;
 }
 
 .onFooter {
   width: 100%;
   height: 271px;
   background-color: #296a61;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.onFooterContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.text1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.text2 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.openTime {
+  color: #f3efda;
+  font-weight: 350;
+  font-size: 12px;
+}
+
+.backCall {
+  color: #ffbc24;
+  font-weight: 350;
+  font-size: 10px;
+}
+
+.mail {
+  color: #ffbc24;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+
+.redirections {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.flexOflogos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.flexOflogos2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.vkInstFbSearch {
+  color: #f3efda;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.payment {
+  color: #f3efda;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.number {
+  color: #ffbc24;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.vkInstFb {
+  display: flex;
+  gap: 10px;
+}
+
+.vkInstFb img {
+  cursor: pointer;
+}
+
+.visaMasterCard {
+  display: flex;
+  gap: 10px;
+}
+
+.background1 {
+  background-image: url(./Images/visa.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 24px;
+  width: 47px;
+  border-radius: 2px;
+}
+
+.background2 {
+  background-image: url(./Images/mastercard.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 24px;
+  width: 40px;
+  border-radius: 2px;
+}
+
+.text3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text3 :first-child {
+  color: #ffbc24;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 15.6px;
+}
+
+/* .text3 :not(:first-child) {
+  color: #ffffff;
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.4px;
+  cursor: pointer;
+  white-space: pre-wrap;
+} */
+
+.otherLines :hover {
+  color: #fdf0a0;
 }
 
 .underFooter {
@@ -35,8 +182,5 @@
 }
 
 .underFooterText2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+text-align: center;
 }
