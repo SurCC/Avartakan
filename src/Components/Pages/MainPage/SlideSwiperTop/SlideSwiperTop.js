@@ -6,18 +6,24 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "./SlideSwiperTop.css";
+import StyledComponentH1 from "../../../distrib/StyledComponents/StyledComponentH1"
 
 import Wallpaper1 from "./Wallpapers/Wallpaper1.png";
 import Wallpaper2 from "./Wallpapers/Wallpaper2.png";
 import Wallpaper3 from "./Wallpapers/Wallpaper3.png";
 import Wallpaper4 from "./Wallpapers/Wallpaper4.png";
 
+const H1 = ({message}) => {
+  return <StyledComponentH1>{message}</StyledComponentH1>
+}
+
 export default function SlideSwiperTop() {
   return (
     <div className="topContainer">
       <div className="textOnSwiper">
         <div className="background">
-          <div className="PM-22">РМ-22</div>
+          {/* <div className="PM-22">РМ-22</div> */}
+          <H1 primary>{`PM-22`}</H1>
           <div className="Printografiya">/Принтография</div>
         </div>
       </div>

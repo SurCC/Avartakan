@@ -1,0 +1,14 @@
+.backgroundOfadvantages {
+  background-color: #296a61;
+  height: 183px;
+  display: flex;
+  justify-content: center;
+}
+
+.advantages {
+  color: #f8f3d5;
+  font-size: 36px;
+  font-weight: 600;
+  position: relative;
+  top: 100px;
+}

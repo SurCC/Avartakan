@@ -7,8 +7,9 @@ import INST from "./Images/istagram.png";
 import FB from "./Images/facebook.png";
 import styled from "@emotion/styled";
 
+/*${props => props.primary?`#FFFFFF`:`red`};*/
 const FooterLink = styled.a`
-  color: ${props => props.primary?`#FFFFFF`:`red`};
+  color: #ffffff;
   opacity: 0.5;
   font-weight: 400;
   font-size: 12px;
@@ -16,10 +17,6 @@ const FooterLink = styled.a`
   cursor: pointer;
   white-space: pre-wrap;
 `;
-
-// const FooterLinkSmall = styled(FooterLink)`
-
-// `
 
 export default function Footer() {
   return (
@@ -62,34 +59,35 @@ export default function Footer() {
           </div>
           <div className="text3">
             <div>О компании</div>
-            <FooterLink primary={true}>О компании</FooterLink>
+            <FooterLink>О компании</FooterLink>
+            {/* primary={true} */}
             <FooterLink>Контакты</FooterLink>
-            <div>Галерея</div>
+            <FooterLink>Галерея</FooterLink>
           </div>
           <div className="text3">
             <div>Информация</div>
-            <div>Доставка и оплата</div>
-            <div>Гарантия и возврат</div>
-            <div>Производство</div>
-            <div>Монтаж 3Д панелей</div>
-            <div>
+            <FooterLink>Доставка и оплата</FooterLink>
+            <FooterLink>Гарантия и возврат</FooterLink>
+            <FooterLink>Производство</FooterLink>
+            <FooterLink>Монтаж 3Д панелей</FooterLink>
+            <FooterLink>
               Стеновые панели оптом - <br />
               купить от производителя
-            </div>
-            <div>Мы на ТВ</div>
+            </FooterLink>
+            <FooterLink>Мы на ТВ</FooterLink>
           </div>
           <div className="text3">
             <div>Партнерам</div>
-            <div>Строительным организациям</div>
-            <div>Дизайнерам</div>
-            <div>Дилерам</div>
+            <FooterLink>Строительным организациям</FooterLink>
+            <FooterLink>Дизайнерам</FooterLink>
+            <FooterLink>Дилерам</FooterLink>
           </div>
           <div className="text3">
             <div>Продукты</div>
-            <div>Барельеф</div>
-            <div>Принтография</div>
-            <div>Гипсовые 3D панели</div>
-            <div>Дизайн линия</div>
+            <FooterLink>Барельеф</FooterLink>
+            <FooterLink>Принтография</FooterLink>
+            <FooterLink>Гипсовые 3D панели</FooterLink>
+            <FooterLink>Дизайн линия</FooterLink>
           </div>
         </div>
       </div>
