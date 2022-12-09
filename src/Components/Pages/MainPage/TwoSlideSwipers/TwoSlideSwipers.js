@@ -5,26 +5,51 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import "./SlideSwiperTop.css";
-import StyledComponentH1 from "../../../distrib/StyledComponents/StyledComponentH1"
+import "./TwoSlideSwipers.css";
+import H1 from "../../../distrib/StyledComponents/StyledComponentH1";
+import H2 from "../../../distrib/StyledComponents/StyledComponentH2";
+import styled from "@emotion/styled";
+import SmallSwiper from "../../../distrib/SmallSwiper/SmallSwiper";
 
 import Wallpaper1 from "./Wallpapers/Wallpaper1.png";
 import Wallpaper2 from "./Wallpapers/Wallpaper2.png";
 import Wallpaper3 from "./Wallpapers/Wallpaper3.png";
 import Wallpaper4 from "./Wallpapers/Wallpaper4.png";
+import { t } from "i18next";
 
-const H1 = ({message}) => {
-  return <StyledComponentH1>{message}</StyledComponentH1>
-}
+const StyledH1 = styled(H1)`
+  color: #ffbc24;
+`;
 
-export default function SlideSwiperTop() {
+const StyledH2 = styled(H2)`
+  padding-top: 98px;
+`;
+
+const ContainerOfSmallSwiper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background-color: #296a61;
+`;
+
+const UnderSmallSwiper = styled.div`
+  width: 100%;
+  height: 135px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0px;
+`;
+
+
+export default function TwoSlideSwipers() {
+
   return (
     <div className="topContainer">
       <div className="textOnSwiper">
         <div className="background">
-          {/* <div className="PM-22">РМ-22</div> */}
-          <H1 primary>{`PM-22`}</H1>
-          <div className="Printografiya">/Принтография</div>
+          <StyledH1>PM-22</StyledH1>
+          <H1>{t("twoSwiperText")}</H1>
         </div>
       </div>
       <Swiper
@@ -46,6 +71,11 @@ export default function SlideSwiperTop() {
           <img src={Wallpaper4} className="Walpapers" alt="Wallpaper4" />
         </SwiperSlide>
       </Swiper>
+      <ContainerOfSmallSwiper>
+        <StyledH2>{t("twoSwiperText1")}</StyledH2>
+        <SmallSwiper />
+        <UnderSmallSwiper></UnderSmallSwiper>
+      </ContainerOfSmallSwiper>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 .topContainer {
   width: auto;
-  height: 948px;
   position: relative;
+  background-color: #4f8d85;
 }
 
 .swiper {
@@ -50,18 +50,4 @@
   padding-left: 35px;
   padding-right: 35px;
   padding-bottom: 10px;
-}
-
-.PM-22 {
-  position: relative;
-  color: #ffbc24;
-  font-size: 48px;
-  font-weight: 600;
-}
-
-.Printografiya {
-  position: relative;
-  color: #ffffff;
-  font-size: 48px;
-  font-weight: 600;
 }

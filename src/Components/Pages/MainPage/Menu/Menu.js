@@ -2,6 +2,8 @@ import React from "react";
 import "./Menu.css";
 import Data from "./data";
 import { Link } from "react-router-dom";
+import i18n from "../../../../i18n";
+import { t } from "i18next";
 
 export default function Menu() {
   return (
@@ -10,18 +12,22 @@ export default function Menu() {
         {Data.map((insideData) => (
           <div className="containerOfMenu" key={insideData.index}>
             <div className="insideContainerOfMenu">
-              <div
-                className={
-                  (insideData.index < 2 && "insideDataHeader") ||
-                  (insideData.index > 2 && "insideDataHeader3") ||
-                  "insideDataHeader2"
-                }
-              >
-                {insideData.name}
+              <div className="insideDataFirstHeaderAndTopSales">
+                <div
+                  className={
+                    (insideData.index < 2 && "insideDataHeader") ||
+                    (insideData.index > 2 && "insideDataHeader3") ||
+                    "insideDataHeader2"
+                  }
+                >
+                  {insideData.name[i18n.language]}
+                </div>
+                {insideData.topSales && (
+                  <div className="topSales">
+                    {insideData.topSales[i18n.language]}
+                  </div>
+                )}
               </div>
-              {insideData.topSales && (
-                <div className="topSales">{insideData.topSales}</div>
-              )}
               <div className="firstRowOfInsideData">
                 {insideData.list.map(
                   (insideDataMenu) =>
@@ -43,10 +49,10 @@ export default function Menu() {
                           </div>
                           <div className="sizeAndPrice">
                             <div className="sizeOfItem">
-                              {insideDataMenu.size}
+                              {insideDataMenu.size[i18n.language]}
                             </div>
                             <div className="priceOfItem">
-                              {insideDataMenu.price}
+                              {insideDataMenu.price[i18n.language]}
                             </div>
                           </div>
                         </div>
@@ -69,10 +75,10 @@ export default function Menu() {
                           </div>
                           <div className="sizeAndPrice">
                             <div className="sizeOfItem">
-                              {insideDataMenu.size}
+                              {insideDataMenu.size[i18n.language]}
                             </div>
                             <div className="priceOfItem">
-                              {insideDataMenu.price}
+                              {insideDataMenu.price[i18n.language]}
                             </div>
                           </div>
                         </div>
@@ -83,7 +89,9 @@ export default function Menu() {
             </div>
             <div className="moreOfBarelief">
               <Link to="./more">
-                <button className="moreButtonOfbarelief">Узнать больше</button>
+                <button className="moreButtonOfbarelief">
+                  {t("menuText")}
+                </button>
               </Link>
             </div>
           </div>

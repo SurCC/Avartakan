@@ -179,8 +179,10 @@
 
 .decoLine {
   font-weight: 100;
+  white-space: pre-line;
 }
 
 .underFooterText2 {
-text-align: center;
+  text-align: center;
+  white-space: pre-line;
 }
