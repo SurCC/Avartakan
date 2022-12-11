@@ -3,9 +3,12 @@ import "./Menu.css";
 import Data from "./data";
 import { Link } from "react-router-dom";
 import i18n from "../../../../i18n";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 export default function Menu() {
+
+  const { t } = useTranslation();
+
   return (
     <div className="menu">
       <div className="insideData">

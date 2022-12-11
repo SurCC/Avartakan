@@ -26,8 +26,6 @@ export default function Header() {
     i18n.changeLanguage(language)
   }
 
-  console.log(i18n.language)
-
   return (
     <nav className="header">
       <div className="frstCol">

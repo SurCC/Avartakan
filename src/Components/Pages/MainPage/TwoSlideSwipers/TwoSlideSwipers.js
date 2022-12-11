@@ -15,7 +15,7 @@ import Wallpaper1 from "./Wallpapers/Wallpaper1.png";
 import Wallpaper2 from "./Wallpapers/Wallpaper2.png";
 import Wallpaper3 from "./Wallpapers/Wallpaper3.png";
 import Wallpaper4 from "./Wallpapers/Wallpaper4.png";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 const StyledH1 = styled(H1)`
   color: #ffbc24;
@@ -43,6 +43,8 @@ const UnderSmallSwiper = styled.div`
 
 
 export default function TwoSlideSwipers() {
+
+  const { t } = useTranslation();
 
   return (
     <div className="topContainer">

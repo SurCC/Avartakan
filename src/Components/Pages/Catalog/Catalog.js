@@ -5,7 +5,7 @@ import SmallSwiper from "../../distrib/SmallSwiper/SmallSwiper";
 import styled from "@emotion/styled";
 import H2 from "../../distrib/StyledComponents/StyledComponentH2";
 import { Link } from "react-router-dom";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 const BodyOfCatalog = styled.div`
   display: flex;
@@ -50,6 +50,9 @@ const LowerContainerOfCatalog = styled.div`
 `;
 
 export default function Catalog() {
+
+  const { t } = useTranslation();
+
   return (
     <BodyOfCatalog>
       <UpperContainerOfCatalog>

@@ -5,7 +5,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { I18nextProvider } from "react-i18next";
-import i18n from "./i18n";
+import i18n from "./i18n"
 
 ReactDOM.render(
   <React.StrictMode>

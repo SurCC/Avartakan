@@ -6,7 +6,7 @@ import VK from "./Images/vk.png";
 import INST from "./Images/istagram.png";
 import FB from "./Images/facebook.png";
 import styled from "@emotion/styled";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 const FooterLink = styled.a`
   color: #ffffff;
@@ -21,6 +21,9 @@ const FooterLink = styled.a`
 const SocialMediaLink = styled.a``;
 
 export default function Footer() {
+
+  const { t } = useTranslation();
+
   return (
     <div className="footerContainer">
       <div className="onFooter">
@@ -68,7 +71,6 @@ export default function Footer() {
           <div className="text3">
             <div>{t("footerText5")}</div>
             <FooterLink>{t("footerText6")}</FooterLink>
-            {/* primary={true} */}
             <FooterLink>{t("footerText7")}</FooterLink>
             <FooterLink>{t("footerText8")}</FooterLink>
           </div>

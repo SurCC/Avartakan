@@ -15,7 +15,7 @@ import Icon from "./Images/Icon.png";
 import Icon1 from "./Images/Icon1.png";
 import Icon2 from "./Images/Icon2.png";
 import Icon3 from "./Images/Icon3.png";
-import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 const BackgroundOfMiddle = styled.div`
   width: 100%;
@@ -80,6 +80,8 @@ const LowerText = styled.div`
 `;
 
 export default function SmallSwiper() {
+  const { t } = useTranslation();
+
   return (
     <BackgroundOfMiddle>
       {/* <div className="ellipse"><img src={LeftButton} alt="LeftButton" /></div> */}
