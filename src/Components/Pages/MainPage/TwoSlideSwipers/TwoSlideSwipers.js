@@ -6,8 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "./TwoSlideSwipers.css";
-import H1 from "../../../distrib/StyledComponents/StyledComponentH1";
-import H2 from "../../../distrib/StyledComponents/StyledComponentH2";
+import { H1, H2 } from "../../../distrib/StyledComponents/StyledComponentsH";
 import styled from "@emotion/styled";
 import SmallSwiper from "../../../distrib/SmallSwiper/SmallSwiper";
 
