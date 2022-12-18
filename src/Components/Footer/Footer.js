@@ -142,8 +142,7 @@ const FooterLink = styled.a`
   }
 `;
 
-const SocialMediaLink = styled.a`
-`;
+const SocialMediaLink = styled.a``;
 
 const UnderFooter = styled.div`
   display: flex;
@@ -173,8 +172,7 @@ const DecoLine = styled.div`
   white-space: pre-line;
 `;
 
-const OficialSite = styled.div`
-`;
+const OficialSite = styled.div``;
 
 const UnderFooterSecondColumn = styled.div`
   text-align: center;
