@@ -9,8 +9,8 @@ import "swiper/css/scrollbar";
 import "./SmallSwiper.css";
 import styled from "@emotion/styled";
 
-import LeftButton from "./Images/Chevron Left.png";
-import RightButton from "./Images/Chevron Right.png";
+// import LeftButton from "./Images/Chevron Left.png";
+// import RightButton from "./Images/Chevron Right.png";
 import Icon from "./Images/Icon.png";
 import Icon1 from "./Images/Icon1.png";
 import Icon2 from "./Images/Icon2.png";
