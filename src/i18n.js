@@ -10,6 +10,9 @@ i18n
   .init({
     fallbackLng: "ru",
     debug: true,
+    backend: {
+      loadPath: `${process.env.PUBLIC_URL}/locales/{{lng}}/{{ns}}.json`,
+    },
 
     interpolation: {
       escapeValue: false,
